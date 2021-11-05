@@ -8,6 +8,8 @@ authors = ["Remigiusz Świc <remigiusz@swic.net.pl>"]
 python = "3.10.0"
 fastapi = "^0.70.0"
 uvicorn = {extras = ["standard"], version = "^0.15.0"}
+prometheus-client = "^0.12.0"
+starlette-exporter = "^0.11.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
